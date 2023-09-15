@@ -1,5 +1,5 @@
 from flask import Flask
-from RPi.GPIO import GPIO
+import RPi.GPIO as GPIO
 from time import sleep
 
 LED_PIN = 11
@@ -20,5 +20,4 @@ def blink():
         sleep(1)
         GPIO.output(11, GPIO.LOW)
         sleep(1)
-    return "<p>Hello, World!</p>"
-    
+    return "<p>Blinked an LED.</p>"
