@@ -41,16 +41,16 @@ PREFERRED:
         - 1 input AND 1 output
 
 
-Adrian (currently meets reqs)
+Adrian 
     - Take a picture and post it to the website
     - Whenever someone posts, an LED blinks
-Akhil (currently meets reqs)
+Akhil 
     - Input a link
     - if the link is a credible source of information, then it blinks an LED and make the site say "it's a reliable source"
     - else [...]
-Danny (currently meets reqs, ADD Meaning)
+Danny 
     - when website button, something on site turns green and LED turns on and plays sound
-Mark
+Mark 
     - Generate a random password
     - If wrong password, reload page
     - If correct, LED blinks
