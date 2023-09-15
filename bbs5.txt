@@ -1,0 +1,56 @@
+Ways to have "feedback from the environment":
+
+    1. Electronic Sensor
+        - Motion detector
+        - Line following sensor (on robot)
+        - Camera + face recognition
+        - Temperature sensor
+    2. Public API
+    3. Python input()s
+    4. Website:
+        get button pressed
+        get text box
+        get slider
+
+
+Ways to output back to the environment:
+
+    1. print()
+    2. GPIO pins
+        - LEDs (even multiple)
+        - motors (particularly in the drive base)
+    3. Make a sound :)
+    4. Website: change text
+
+
+IDEAS
+    - Ring Doorbell - If there is the "correct" face, make a LED blink 
+    - Have 5 LEDs, and turn on as many LEDs as there are faces in a picture
+
+
+MINIMUM REQUIREMENTS: (feel free to do more)
+    - Website component:
+        - 1 input and 1 output
+    - Electronics:
+        - 1 input OR output
+
+PREFERRED:
+    - Website component:
+        - multiple pages
+    - Electronics:
+        - 1 input AND 1 output
+
+
+Adrian (currently meets reqs)
+    - Take a picture and post it to the website
+    - Whenever someone posts, an LED blinks
+Akhil (currently meets reqs)
+    - Input a link
+    - if the link is a credible source of information, then it blinks an LED and make the site say "it's a reliable source"
+    - else [...]
+Danny (currently meets reqs, ADD Meaning)
+    - when website button, something on site turns green and LED turns on and plays sound
+Mark
+    - Generate a random password
+    - If wrong password, reload page
+    - If correct, LED blinks

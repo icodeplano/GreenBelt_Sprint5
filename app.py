@@ -21,3 +21,4 @@ def blink():
         GPIO.output(11, GPIO.LOW)
         sleep(1)
     return "<p>Hello, World!</p>"
+    
