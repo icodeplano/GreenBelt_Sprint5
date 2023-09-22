@@ -1,11 +1,12 @@
 from flask import Flask
-import RPi.GPIO as GPIO
+# import RPi.GPIO as GPIO
+import gpiozero
 from time import sleep
 
-LED_PIN = 11
+# LED_PIN = 11
 
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(LED_PIN, GPIO.OUT)
+# GPIO.setmode(GPIO.BOARD)
+# GPIO.setup(LED_PIN, GPIO.OUT)
 
 app = Flask(__name__)
 

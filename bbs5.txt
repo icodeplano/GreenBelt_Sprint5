@@ -33,7 +33,6 @@ MINIMUM REQUIREMENTS: (feel free to do more)
         - 1 input and 1 output
     - Electronics:
         - 1 input OR output
-
 PREFERRED:
     - Website component:
         - multiple pages
@@ -52,5 +51,5 @@ Danny
     - when website button, something on site turns green and LED turns on and plays sound
 Mark 
     - Generate a random password
-    - If wrong password, reload page
+    - If wrong password, tell user to reload page
     - If correct, LED blinks
