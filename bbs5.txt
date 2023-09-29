@@ -45,7 +45,7 @@ Adrian
     - Whenever someone posts, an LED blinks
 Akhil 
     - Input a link
-    - if the link is a credible source of information, then it blinks an LED and make the site say "it's a reliable source"
+- if the link is a credible source of information, then it blinks an LED and make the site say "it's a reliable source"
     - else [...]
 Danny 
     - when website button, something on site turns green and LED turns on and plays sound
