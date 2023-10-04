@@ -9,7 +9,7 @@ Mark
 from flask import Flask
 
 # import RPi.GPIO as GPIO
-from gpiozero import LED
+# from gpiozero import LED
 from time import sleep
 
 # LED_PIN = 11
@@ -45,7 +45,7 @@ def generate_password() -> str:
     return "pass123"
 
 
-led = LED(16)
+# led = LED(16)
 
 def test_enter_password():
     actual = generate_password()
